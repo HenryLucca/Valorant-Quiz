@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_henry_lucca_page.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -25,6 +26,14 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             }
+
+        }
+
+        btn_henry.setOnClickListener{
+            startActivity(Intent(this,HenryLuccaPageActivity::class.java))
+        }
+        btn_tlbeto.setOnClickListener{
+            startActivity(Intent(this,TLBetoPageActivity::class.java))
         }
     }
 }

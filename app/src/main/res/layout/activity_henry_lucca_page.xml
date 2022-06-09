@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#333333"
+    tools:context=".HenryLuccaPageActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Henry Lucca"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/holo_red_light"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@android:color/holo_red_light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oi, esse sou eu, Henry Lucca 🤠"/>
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:src="@drawable/henry_image"
+                android:background="@drawable/henry_image_border_bg"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#4444"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/github_icon"/>
+                <TextView
+                    android:id="@+id/henry_github"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/github"/>
+
+                <ImageView
+
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/linkedin_icon"/>
+                <TextView
+                    android:id="@+id/henry_linkedin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linkedin"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:paddingBottom="5dp"
+                android:text=" Meu nome é Henry Lucca, sou estudante do 5º período de Ciências da Computação na Unicap. \n Sou apaixonado por tecnologia e por programação. Minha primeira linguagem foi Java, mas meu foco atual é o desenvolvimento de sistemas web com meu estudo em React"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:text="A vida é uma coisa que se pode mudar, mas não se pode mudar de forma mais rápida.\n~ Anne Frank"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="15dp"
+        android:text="Voltar a pagina inicial"/>
+
+</LinearLayout>

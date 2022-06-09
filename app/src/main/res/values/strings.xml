@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="github"> <a href="https://github.com/HenryLucca">Github</a> </string>
+    <string name="linkedin"> <a href="https://www.linkedin.com/in/henry-lucca-a7093b220/">Linkedin</a> </string>
+    <string name="bio_henry">Meu nome é Henry Lucca, sou estudante do 5º período de Ciências da Computação na Unicap. Sou apaixonado por tecnologia e por programação. Minha primeira linguagem foi Java, mas meu foco atual é o desenvolvimento de sistemas web com meu estudo em React</string>
 </resources>
