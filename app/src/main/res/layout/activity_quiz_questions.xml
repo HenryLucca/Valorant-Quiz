@@ -22,8 +22,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:textColor="#363A43"
             android:textSize="22sp"
+            android:textColor="@android:color/white"
             android:text="Qual o nome desse jogo ?"/>
         <ImageView
             android:id="@+id/iv_image"
@@ -74,7 +74,7 @@
             android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="18sp"
             tools:text="League of Legends" />
 
@@ -86,7 +86,7 @@
             android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="18sp"
             tools:text="Valorant"/>
 
@@ -98,7 +98,7 @@
             android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="18sp"
             tools:text="Runeterra"/>
 
@@ -110,7 +110,7 @@
             android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="18sp"
             tools:text="CS:GO"/>
 
